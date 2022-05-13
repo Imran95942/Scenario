@@ -543,22 +543,22 @@ def snipe(update: Update, context: CallbackContext):
 __mod_name__ = "Bans/Mutes"
 
 __help__ = """
-*User Commands*:
-  ➢ `/kickme`*:* kicks the user who issued the command
-  ➢ `/banme`*:*  Bot Will Bans you from the group.
-  ➢ `/roar`*:*  Self Unban
+*Команды пользователя*:
+  ➢ `/kickme`*:* кикает пользователя, отдавшего команду.
+  ➢ `/banme`*:* Бот Уилл банит вас из группы.
+  ➢ `/roar`*:* Самостоятельное удаление.
 
-*Ban Commands are Admins only*:
-  ➢ `/ban <userhandle>`*:* bans a user. (via handle, or reply)
-  ➢ `/sban <userhandle>`*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-  ➢ `/tban <userhandle> x(m/h/d)`*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
-  ➢ `/unban <userhandle>`*:* unbans a user. (via handle, or reply)
-  ➢ `/kick <userhandle>`*:* kicks a user out of the group, (via handle, or reply)
+*Команды бана доступны только администраторам*:
+  ➢ `/ban <userhandle>`*:* запрещает пользователя. (через хэндл или ответ)
+  ➢ `/sban <userhandle>`*:* молчаливый запрет пользователя. Удаляет команду, отвечает на сообщение и не отвечает. (через хэндл или ответ)
+  ➢ `/tban <userhandle> x(m/h/d)`*:* запрещает пользователя на `x` время. (через хэндл, или ответ). `m` = `минуты`, `h` = `часы`, `d` = `дни`.
+  ➢ `/unban <userhandle>`*:* снимает запрет с пользователя. (через хэндл или ответ)
+  ➢ `/kick <userhandle>`*:* выкидывает пользователя из группы, (через handle, или ответ).
   
-*Mute Commands are Admins only*:
-  ➢ `/mute <userhandle>`*:* silences a user. Can also be used as a reply, muting the replied to user.
-  ➢ `/tmute <userhandle> x(m/h/d)`*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
-  ➢ `/unmute <userhandle>`*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+*Команды отключения звука доступны только администраторам*:
+  ➢ `/mute <userhandle>`*:* заставляет пользователя замолчать. Может также использоваться в качестве ответа, отключая звук пользователя, которому ответили.
+  ➢ `/tmute <userhandle> x(m/h/d)`*:* отключает пользователя на x времени. (через хэндл или ответ). `m` = `минуты`, `h` = `часы`, `d` = `дни`.
+  ➢ `/unmute <userhandle>`*:* отключает пользователя. Может также использоваться в качестве ответа, отключая звук пользователя, которому ответили.
 """
 
 
