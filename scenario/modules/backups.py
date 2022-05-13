@@ -367,9 +367,9 @@ __mod_name__ = "Backups"
 
 __help__ = """
 *Only for group owner:*
-   ➢ `/import`*:* Reply to the backup file for the butler / emilia group to import as much as possible, making transfers very easy! \
- Note that files / photos cannot be imported due to telegram restrictions.
-   ➢ `/export`*:* Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
+   ➢ `/import`*:* Ответ на резервный файл для группы Butler / Emilia, чтобы импортировать как можно больше, делая переводы очень простыми! \
+ Обратите внимание, что файлы / фотографии не могут быть импортированы из-за ограничений telegram.
+   ➢ `/export`*:* Экспорт данных группы, которые будут экспортированы: правила, заметки (документы, изображения, музыка, видео, аудио, голос, текст, текстовые кнопки)\
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data, run_async=True)
