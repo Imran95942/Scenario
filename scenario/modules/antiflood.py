@@ -357,20 +357,20 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-You know how sometimes, people join, send 100 messages, and ruin your chat? With antiflood, that happens no more!
-Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
-will result in restricting that user.
- - /flood: Get the current flood control setting
-*Admin only*:
- - /setflood <int/'no'/'off'>: enables or disables flood control
- - /setfloodmode <ban/kick/mute/tban/tmute> <value>: Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
- Note:
- - Value must be filled for tban and tmute!
- It can be:
- 5m = 5 minutes
- 6h = 6 hours
- 3d = 3 days
- 1w = 1 week
+Вы знаете, как иногда люди присоединяются, отправляют 100 сообщений и портят ваш чат? С Антифлудом этого больше не случится!
+Антифлуд позволяет вам принимать меры к пользователям, которые отправляют более x сообщений подряд. Превышение установленного количества флуда \
+приведет к ограничению этого пользователя.
+ - /flood: Получить текущую настройку контроля флуда
+*Только для администраторов*:
+ - /setflood <int/'no'/'off'>: включает или выключает контроль флуда
+ - /setfloodmode <ban/kick/mute/tban/tmute> <значение>: Действие, которое необходимо выполнить, когда пользователь превысил лимит флуда. ban/kick/mute/tmute/tban
+ Примечание:
+ - Значение должно быть заполнено для tban и tmute!
+ Это может быть:
+ 5m = 5 минут
+ 6h = 6 часов
+ 3d = 3 дня
+ 1w = 1 неделя
  """
 
 __mod_name__ = "Anti-Flood"
