@@ -58,7 +58,7 @@ async def _(event):
         await KkK.delete()
 
 __help__ = """
-/book name - Get information about some book 
+/book имя - Получить информацию о некоторой книге 
 """
 
 __mod_name__ = "Books"
