@@ -1019,56 +1019,56 @@ def adminlist(update, context):
 
 
 __help__ = """
-*User Commands*:
-  ➢ `/admins`*:* list of admins in the chat
-  ➢ `/pinned`*:* to get the current pinned message.
-  ➢ `/rules`*:* get the rules for this chat.
+*Команды пользователя*:
+  ➢ `/admins`*:* список администраторов в чате
+  ➢ `/pinned`*:* получить текущее прикрепленное сообщение.
+  ➢ `/rules`*:* получить правила для этого чата.
 
-*Promote & Demote Commands are Admins only*:
-  ➢ `/promote (user) (?admin's title)`*:* Promotes the user to admin.
-  ➢ `/demote (user)`*:* Demotes the user from admin.
-  ➢ `/lowpromote`*:* Promote a member with low rights
-  ➢ `/midpromote`*:* Promote a member with mid rights
-  ➢ `/highpromote`*:* Promote a member with max rights
-  ➢ `/lowdemote`*:* Demote an admin to low permissions
-  ➢ `/middemote`*:* Demote an admin to mid permissions
+Команды *Продвинуть и понизить в должности доступны только администраторам*:
+  ➢ `/promote (user) (?admin's title)`*:* Повышает пользователя до администратора.
+  ➢ `/demote (user)`*:* Снимает пользователя с должности администратора.
+  ➢ `/lowpromote`*:* Продвижение пользователя с низкими правами.
+  ➢ `/midpromote`*:* Продвижение пользователя со средними правами
+  ➢ `/highpromote`*:* Продвижение пользователя с максимальными правами
+  ➢ `/lowdemote`*:* понижение администратора до низких прав
+  ➢ `/middemote`*:* Повышение администратора до средних прав
  
-*Cleaner & Purge Commands are Admins only*:
-  ➢ `/del`*:* deletes the message you replied to
-  ➢ `/purge`*:* deletes all messages between this and the replied to message.
-  ➢ `/purge <integer X>`*:* deletes the replied message, and X messages following it if replied to a message.
-  ➢ `/zombies`*:* counts the number of deleted account in your group
-  ➢ `/kickthefools`*:* Kick inactive members from group (one week)
+*Команды очистки и вычищения доступны только администраторам*:
+  ➢ `/del`*:* удаляет сообщение, на которое вы ответили
+  ➢ `/purge`*:* удаляет все сообщения между этим и отвеченным сообщением.
+  ➢ `/purge <целое число X>`*:* удаляет ответное сообщение и X сообщений, следующих за ним, если ответили на сообщение.
+  ➢ `/zombies`*:* подсчитывает количество удаленных аккаунтов в вашей группе.
+  ➢ `/kickthefools`*:* выкинуть неактивных участников из группы (одна неделя)
   
-*Pin & Unpin Commands are Admins only*:
-  ➢ `/pin`*:* silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
-  ➢ `/unpin`*:* unpins the currently pinned message - add 'all' to unpin all pinned messages.
-  ➢ `/permapin`*:* Pin a custom message through the bot. This message can contain markdown, buttons, and all the other cool features.
-  ➢ `/unpinall`*:* Unpins all pinned messages.
-  ➢ `/antichannelpin <yes/no/on/off>`*:* Don't let telegram auto-pin linked channels. If no arguments are given, shows current setting.
-  ➢ `/cleanlinked <yes/no/on/off>`*:* Delete messages sent by the linked channel.
+*Команды "прикрепить и открепить" доступны только администраторам*:
+  ➢ `/pin`*:* молча прикрепляет сообщение, на которое ответили - добавьте 'loud' или 'notify' для уведомления пользователей.
+  ➢ `/unpin`*:* открепляет текущее прикрепленное сообщение - добавьте 'all', чтобы открепить все прикрепленные сообщения.
+  ➢ `/permapin`*:* Закрепление пользовательского сообщения через бота. Это сообщение может содержать маркдаун, кнопки и все остальные возможности.
+  ➢ `/unpinall`*:* Открепить все прикрепленные сообщения.
+  ➢ `/antichannelpin <yes/no/on/off>`*:* Не позволять telegram автоматически пинговать связанные каналы. Если аргументы не указаны, показывает текущую настройку.
+  ➢ `/cleanlinked <yes/no/on/off>`*:* Удалять сообщения, отправленные связанным каналом.
   
-*Log Channel are Admins only*:
-  ➢ `/logchannel`*:* get log channel info
-  ➢ `/setlog`*:* set the log channel.
-  ➢ `/unsetlog`*:* unset the log channel.
-*Setting the log channel is done by*:
- ➩ adding the bot to the desired channel (as an admin!)
- ➩ sending `/setlog` in the channel
- ➩ forwarding the `/setlog` to the group
+*Связанный канал доступен только администраторам*:
+  ➢ `/logchannel`*:* получить информацию о канале журнала
+  ➢ `/setlog`*:* установить канал журнала.
+  ➢ `/unsetlog`*:* снять установку канала журнала.
+*Установка канала журнала выполняется с помощью*:
+ ➩ добавление бота в нужный канал (от имени администратора!)
+ ➩ посылаем `/setlog` в канале
+ ➩ пересылка `/setlog` в группу
  
-*Rules*:
-  ➢ `/setrules <your rules here>`*:* set the rules for this chat.
-  ➢ `/clearrules`*:* clear the rules for this chat.
+*Правила*:
+  ➢ `/setrules <ваши правила здесь>`*:* установить правила для этого чата.
+  ➢ `/clearrules`*:* очистить правила для этого чата.
 
-*The Others Commands are Admins only*:
-  ➢ `/invitelink`*:* gets invitelink
-  ➢ `/title <title here>`*:* sets a custom title for an admin that the bot promoted
-  ➢ `/admincache`*:* force refresh the admins list
-  ➢ `/setgtitle <text>`*:* set group title
-  ➢ `/setgpic`*:* reply to an image to set as group photo
-  ➢ `/setdesc`*:* Set group description
-  ➢ `/setsticker`*:* Set group sticker
+*Другие команды предназначены только для администраторов*:
+  ➢ `/invitelink`*:* получить invitelink
+  ➢ `/title <title here>`*:* устанавливает пользовательский титул для админа, которого продвигал бот
+  ➢ `/admincache`*:* принудительное обновление списка админов
+  ➢ `/setgtitle <text>`*:* установка названия группы
+  ➢ `/setgpic`*:* ответ на изображение для установки в качестве группового фото
+  ➢ `/setdesc`*:* установить описание группы
+  ➢ `/setsticker`*:* Установить стикер группы
 """
 
 SET_DESC_HANDLER = CommandHandler("setdesc", set_desc, filters=Filters.chat_type.groups, run_async=True)
