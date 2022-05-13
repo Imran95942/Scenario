@@ -173,6 +173,6 @@ dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
 __help__ = """
-/afk reason - when someone will tag you bot will inform that user that you're afk.
+/afk причина - когда кто-то пометит вас, бот сообщит этому пользователю, что вы отсутствуете.
 """
 __mod_name__ = "Afk"
