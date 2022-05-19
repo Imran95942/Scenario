@@ -48,6 +48,7 @@ Demo bot - @anonymous_4_robot
 </details>
 <details>
 <summary> 🍀 Update heroku app with CLI 🍀</summary>
+
 - [x] Android compatible 
 - [x] Android 7+
 
