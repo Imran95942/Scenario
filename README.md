@@ -51,7 +51,8 @@ Demo bot - @anonymous_4_robot
 
 
 - [x] Android compatible 
-- [x] Android 7+
+- [x] Android 7 and above
+- [ ] Below Android 7
 
 <p><a href="https://github.com/TeamScenario/Heroku-Cli-Termux-Android/tree/TeamScenario"><img src="https://telegra.ph/file/ec51eb578a1b73bf495fe.jpg" alt="Press to Takeoff" width="490px"></a></p>
 </details>
