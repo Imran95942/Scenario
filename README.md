@@ -51,27 +51,28 @@ Demo bot - @anonymous_4_robot
 <p><a href="https://download.apkcombo.com/com.termux/Termux_0.118.0_apkcombo.com.apk?ecp=Y29tLnRlcm11eC8wLjExOC4wLzExOC41MThkOGEwNDliMzFlZTI4ZTBkZjczZTVmYTIxZjM4NmZjNDY4ODg4LmFwaw==&iat=1652949767&sig=0ccdc62db780ace69c4e0d363c0a6d80&size=101739523&from=cf&version=latest&lang=en&fp=a981b449f00e83d699ee4aba1f4bcbc3&ip=47.9.1.4"><img src="https://telegra.ph/file/9e955b5952bc0836a6b4b.png" alt="Press to Takeoff" width="490px"></a></p>
 
 Enter this code in termux
-```
-apt update && apt upgrade && pkg install git && sh -c "$(curl -fsSL https://raw.githubusercontent.com/SKGHD/Termux-heroku-cli/master/install.sh)" && heroku login -i
+```console
+    ~$ apt update && apt upgrade && pkg install git && sh -c "$(curl -fsSL https://raw.githubusercontent.com/SKGHD/Termux-heroku-cli/master/install.sh)" && heroku login -i
 ```
 ### After heroku login
-```
-cd /storage/emulated/0 && git clone https://github.com/TeamScenario/Scenario
+```console
+    ~$ cd /storage/emulated/0 && git clone https://github.com/TeamScenario/Scenario
 ```
 ### After clone 
-```
-cd Scenario 
+```console
+    ~$ cd Scenario 
 ```
 ### enter your app name instead of appname
-```
-heroku git:remote -a yourapp
+```console
+    ~$ heroku git:remote -a yourapp
 ```
 ### Final step 
-```
-git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
+```console
+    ~$ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
 ```
 
 All done !
+</details>
 
 <details>
 <summary><b>Deploy on Vps / local machine</b></summary>
