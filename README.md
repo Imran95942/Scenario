@@ -6,6 +6,7 @@
 
 # <mark>Things to be noted</mark>
 #### All images are clickable!!
+#### click on ▶ to reveal that section!
 
 <mark>1. There are 2 app.json format in repository
    first is named as app it's for pros like you 
