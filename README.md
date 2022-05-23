@@ -25,7 +25,7 @@
 | TOKEN | from @BotFather |
 | OWNER_ID | DM @ScenarioXbot and send /id |
 | DEV_USERS | same as OWNER_ID |
-| String session | use StringFatherBot (Telethon session)| 
+| String | use @StringFatherBot (Telethon session)| 
 
 
 > Scenario is the most Advanced telegram bot to manage your groups. 
