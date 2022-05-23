@@ -8,11 +8,11 @@
 #### All images are clickable!!
 #### click on ▶ to reveal that section!
 
-<mark>1. There are 2 app.json format in repository
+~<mark>1. There are 2 app.json format in repository
    first is named as app it's for pros like you 
    and another one app.json for beginners 
    so if you're a pro person rename app to app.json
-   before that delete existing one.
+   before that delete existing one.~
 
 2. To update your app on heroku use /update command if error use /gitpull</mark>
 
