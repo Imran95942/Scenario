@@ -70,7 +70,7 @@ from telethon import Button, events
 @telethn.on(events.NewMessage(pattern="/alive"))
 async def awake(event):
   scenario = event.sender.first_name
-  scenario = "**♡ I,m scenario** \n\n"
+  scenario = "**🐺 Я ʙᴏʀᴢ** \n\n"
   scenario += "**♡ I'm Working With Awesome Speed**\n\n"
   scenario += "**♡ Scenario: LATEST Version**\n\n"
   scenario += "**♡ My Creator:** [TeamScenario](t.me/TeamScenario)\n\n"
