@@ -1,15 +1,39 @@
 # A project By TeamScenario
 
 • A star 🌟 from you means a lot please star if you liked this project.
-
+<span style="color:blue">some Hello text</span>. 
 <br>
+
+# <mark>Things to be noted</mark>
+#### All images are clickable!!
+#### click on ▶ to reveal that section!
+
+~<mark>1. There are 2 app.json format in repository
+   first is named as app it's for pros like you 
+   and another one app.json for beginners 
+   so if you're a pro person rename app to app.json
+   before that delete existing one.~
+
+2. To update your app on heroku use /update command if error use /gitpull</mark>
+
+### Most important vars
+
+| Vars | from where to get |
+| ----------- | ----------- |
+| API_ID | Get it from my.telegram.org |
+| API_HASH | Get it from my.telegram.org |
+| TOKEN | from @BotFather |
+| OWNER_ID | DM @ScenarioXbot and send /id |
+| DEV_USERS | same as OWNER_ID |
+| String | use @StringFatherBot (Telethon session)| 
+
 
 > Scenario is the most Advanced telegram bot to manage your groups. 
 Demo bot - @anonymous_4_robot
 
-## How To Deploy 
+## How to Deploy 
 <details>
-<summary><b>🔗 Deploy to Heroku</b></summary>
+<summary><b>🔗 Deploy on Heroku</b></summary>
 <br>
 
 > All vars are already filled and some are optional not filling them will not make big difference.
@@ -24,7 +48,16 @@ Demo bot - @anonymous_4_robot
 <h4>Click the button below to deploy Scenario on Heroku!</h4>    
 <p><a href="https://teamscenario.blogspot.com/heroku-deployer"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
 </details>
+<details>
+<summary> 🍀 Update heroku app with CLI 🍀</summary>
 
+
+- [x] Android compatible 
+- [x] Android 7 and above
+- [ ] Below Android 7
+
+<p><a href="https://github.com/TeamScenario/Heroku-Cli-Termux-Android/tree/TeamScenario"><img src="https://telegra.ph/file/ec51eb578a1b73bf495fe.jpg" alt="Press to Takeoff" width="490px"></a></p>
+</details>
 
 <details>
 <summary><b>Deploy on Vps / local machine</b></summary>
@@ -55,3 +88,12 @@ Start with ```python -m scenario```
 [![Group](https://img.shields.io/badge/dynamic/json?logo=telegram&label=%40TeamScenario&labelColor=282c34&suffix=+members&color=2CA5E0&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3DThe_Arc_Music&longCache=true%22)](https://t.me/TeamScenario)
 </details>
   
+
+## TODO
+- [ ] Better readme
+- [x] Less vars to fill
+- [ ] Design improvement
+
+[^TeamScenario]
+[^TeamScenario]: ©2022 TeamScenario All rights reserved!
+

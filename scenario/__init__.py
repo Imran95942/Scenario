@@ -51,7 +51,7 @@ if ENV:
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
-    JOIN_LOGGER = os.environ.get("JOIN_LOGGER", None)
+    JOIN_LOGGER = os.environ.get("EVENT_LOGS", None)
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX")
 
     try:
@@ -119,6 +119,8 @@ if ENV:
     APP_HASH = API_HASH
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", True) # Heroku App Name 
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", True) # Heroku API [From https://dashboard.heroku.com/account]
+    UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", True)
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", True)
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", True)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True) # Don't Change
     BOT_NAME = os.environ.get("BOT_NAME", True) # Name Of your Bot.
@@ -150,7 +152,6 @@ else:
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
-    JOIN_LOGGER = Config.JOIN_LOGGER
     OWNER_USERNAME = Config.OWNER_USERNAME
     ALLOW_CHATS = Config.ALLOW_CHATS
     try:
@@ -337,7 +338,7 @@ from scenario.modules.helper_funcs.handlers import (
     CustomRegexHandler,
 )
 
-# make sure the regex handler can take extra kwargs
+## make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
