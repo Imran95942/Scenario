@@ -71,10 +71,10 @@ from telethon import Button, events
 async def awake(event):
   scenario = event.sender.first_name
   scenario = "**🐺 Я ʙᴏʀᴢ** \n\n"
-  scenario += "**♡ I'm Working With Awesome Speed**\n\n"
-  scenario += "**♡ Scenario: LATEST Version**\n\n"
-  scenario += "**♡ My Creator:** [TeamScenario](t.me/TeamScenario)\n\n"
-  scenario += "**♡ Python-Telegram-Bot: v13.7**\n\n"
+  scenario += "**⚜️Я работаю с потрясающей скоростью **\n\n"
+  scenario += "**⚜️ ʙᴏʀᴢ: ПОСЛЕДНЯЯ версия**\n\n"
+  scenario += "**⚜️ Мой Разработчик:** [𝐼𝓈𝓁𝒶𝓂](t.me/IsIam07)\n\n"
+  scenario += "**⚜️ ʙᴏʀᴢ: v13.7**\n\n"
   scenario_BUTTON = [
       [
           Button.url("Support", f"https://t.me/{SUPPORT_CHAT}"),
@@ -117,26 +117,26 @@ HELP_MSG = "Click the button below to get help manu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
     
 PM_START_TEXT = """
-────「 [Scenario](https://telegra.ph/file/7b8c52bd4c7b8b35ece20.jpg) 」────
-*Hola! {},*
-*I am {} Anime themed advance group management bot with a lot of Sexy Features.*
+────「 [ʙᴏʀᴢ](https://telegra.ph/file/8a4635507507beb9c3011.jpg) 」────
+*Здравствуйте! {},*
+*Я ʙᴏʀᴢ {}.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities ××
+➛ Нажмите /help, чтобы увидеть мои доступные команды ××
 """
 
 GROUP_START_TEXT = """
-I'm awake already!
-Haven't slept since: {}
+Я уже проснулся!
+Не спал с тех пор, как: {}
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
                             text=f"⚓ ❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❄️ ⚓",
-                            url="https://t.me/ScenarioXbot?startgroup=true")
+                            url="https://t.me/b0rzbot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="☘️ ᴀʙᴏᴜᴛ ☘️", callback_data="scenario_"),
@@ -352,7 +352,7 @@ def scenario_about_callback(update, context):
     first_name = update.effective_user.first_name
     if query.data == "scenario_":
         query.message.edit_text(
-            text=f"Hello dear {first_name}, My name is Scenario. A Powerful Telegram Group Management Bot.\n My developer - @TeamScenario\n\nIf you have any Question, You can join our support chat. \nMy developer will help you. \nCheck Link Below",
+            text=f"Hello dear {first_name}, My name is BORZ. A Powerful Telegram Group Management Bot.\n My developer - @muharibun07\n\nIf you have any Question, You can join our support chat. \nMy developer will help you. \nCheck Link Below",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
