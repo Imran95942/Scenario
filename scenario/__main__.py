@@ -119,7 +119,7 @@ START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
 PM_START_TEXT = """
 ────「 [ʙᴏʀᴢ](https://telegra.ph/file/8a4635507507beb9c3011.jpg) 」────
 *Здравствуйте! {},*
-*Я ʙᴏʀᴢ {}.*
+*Я {}.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -135,19 +135,15 @@ GROUP_START_TEXT = """
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"⚓ ❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❄️ ⚓",
+                            text=f"⚓  Добавить в группу ⚓",
                             url="https://t.me/b0rzbot?startgroup=true")
                     ],
-                   [
-                       InlineKeyboardButton(text="☘️ ᴀʙᴏᴜᴛ ☘️", callback_data="scenario_"),
-                       InlineKeyboardButton(text="⚔️ ɪɴʟɪɴᴇ ⚔️", switch_inline_query_current_chat=""),
-                     ],
                     [                  
                        InlineKeyboardButton(
-                             text="✨ sᴜᴘᴘᴏʀᴛ ✨",
+                             text="✨  Разработчик ✨",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="✨ ᴜᴩᴅᴀᴛᴇs ✨",
+                             text="✨ ᴜᴍᴜʜᴀʀɪʙuɴ ✨",
                              url=f"https://t.me/{UPDATES_CHANNEL}")
                      ],
                      [
